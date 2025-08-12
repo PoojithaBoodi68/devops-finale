@@ -1,8 +1,9 @@
 # devops-finale
-Challenge-with-githubs
-Team Name-Poster Creation for Cafe Restaurant
-Roles:
-Poojitha-Developer
-Ramya-Designer
-Mythili-Manager
+## Team Info
 
+- *Team Name*: PRM Cafe 
+- *Members & Roles*:
+  - Poojitha-Developer
+  - Ramya-Designer
+  - MYthili-Manager
+- *Poster Tool Used*: Canva
