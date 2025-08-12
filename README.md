@@ -1,8 +1,9 @@
 # devops-finale
-Challenge-with-githubs
-prm cafe poster
-poojitha
-ramya
-mythili
+## Team Info
 
-
+- *Team Name*: PRM Cafe
+- *Members & Roles*:
+  - Poojitha-Designer
+  - Ramya-Developer
+  - Mythili-Manager
+- *Poster Tool Used*: Canva
