@@ -6,4 +6,4 @@
   - Poojitha-Designer
   - Ramya-Developer
   - Mythili-Manager
-- *Poster Tool Used*: Canva
+- *Poster Tool Used*: Html and CSS
