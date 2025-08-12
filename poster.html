@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Creation</title>
+<style>
+    body {
+	background-image:url('bg2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	        margin: 0;
+        font-family: 'Poppins', sans-serif;
+ 	
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .poster {
+        background:white;
+        border-radius: 20px;
+        padding: 20px;
+ 	height:150px;
+         width: 300px;
+        text-align: center;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+    }
+    .poster img {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-family: 'Georgia', serif;
+        color: #5b3a29;
+        font-size: 2.3em;
+        margin-bottom: 10px;
+    }
+    p {
+	
+        color: #444;
+        font-size: 1.05em;
+        line-height: 1.5;
+    }
+    .offer {
+        background: #d2691e;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .marquee-images img {
+        height: 150px;
+        margin: 0 10px;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="poster">
+        <!-- Scrolling headline -->
+        <marquee behavior="alternate" scrollamount="6" style="color:#b23b23; font-size:1.3em; font-weight:bold;">
+            ☕ Welcome to Café Delight – Where Every Sip is Happiness! ☕
+        </marquee>
+	
+         <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="Coffee Cup">
+
+        <h1>Café Delight</h1>
+ <p>Experience the magic of freshly brewed coffee and oven-fresh pastries in a cozy, relaxing atmosphere. Perfect for work, friends, or a little "me" time.</p>
+
+
+        <marquee direction="left" scrollamount="5" class="offer">
+            🌟 Today Only: Buy 1 Cappuccino, Get 1 Free! 🌟
+        </marquee>
+
+       
+        <marquee class="marquee-images" behavior="scroll" direction="left" scrollamount="4">
+            <img src="pastry.jpg" alt="Pastry">
+            <img src="beans.jpg" alt="Coffee Beans">
+            <img src="coffeecup.jpg" alt="Coffee Cup">
+            <img src="cafe.jpg" alt="Cafe Interior">
+        </marquee>
+
+        <p class="footer">📍Gopalapatnam Railway Station Opposite Lucky shopping mall!!! | ⏰ 8 AM - 10 PM | 📞 +91 98765 43210</p>
+    </div>
+</body>
+</html>
